@@ -1,0 +1,89 @@
+Exercise 1:
+Using only Vim motion keys, can you navigate through the maze from the start to the end?
+The letters provided serve as both hints and required motions.
+
+RULES:
+1. You cannot repeat multiple motions consecutively, except for 'f' and 't'.
+2. ')' and 'j' are connected
+3. start on 'x'
+
+
+
+
+            start
+|___________  x   ____________________________________________|
+|             j                                             f |
+|                                                             |
+|----------------------------------------------------------   |
+|                             f             k                 |
+|    T                        j             f               j |
+|---     -----------------------------------------------------|
+|                                            |                |
+|                                            |                |
+|     j                                                t      |
+|--------------------------------------------------           |
+|                           h    f                     j      |
+|                                                             |
+|--------------------------   --------------------------------|
+|         (                )j                                 |
+|_____    j __________________________________________________|
+       end
+
+Attending Answer provided at the bottom:
+Reach by pressing 'G' in normal mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer:
+
+j ff 4j ff k ff j TT 4j tt 2j ff 5h 3j % j

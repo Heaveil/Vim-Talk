@@ -153,6 +153,7 @@ Middle
 **Visual Mode**
 
 - V - Visual Line Mode
+- ctrl-v - Visual Block Mode
 - < - Tab left
 - > - Tab Right
 - o - Opposite End
@@ -169,7 +170,6 @@ Middle
 .......................
 .......................
 
-- ctrl-v - Visual Block Mode
 - ctrl-a - Increment
 - g ctrl-a - Global Increment
 

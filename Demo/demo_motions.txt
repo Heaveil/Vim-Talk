@@ -70,12 +70,45 @@ int main() {
 
 Challenge 5:
 
-- Can you copy the arguments from function `foo` to function `bar`?
+- Can you copy the arguments to function foo?
 
 -----------------------
 V
-foo('Copy this argument, yes including the single quotes')
+That one -> "Copy this argument"
 
 V
-bar(Never gonna give you up)
+foo(Never gonna give you up)
+-----------------------
+
+Challenge 6:
+
+- Delete all `Foo` from the lines below using di<noun>
+
+-----------------------
+V
+Parenthesis (Foo)
+Braces {Foo}
+Brackets [Foo]
+Tag <Foo>
+Single Quote 'Foo'
+Double Quote "Foo"
+Backtick `Foo`
+-----------------------
+
+Challenge 7:
+
+- Follow the instructions
+
+-----------------------
+V
+DELETE_ME
+
+V
+CHANGE_ME
+
+   V
+DELETE_ME
+
+   V
+CHANGE_ME
 -----------------------

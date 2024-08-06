@@ -202,6 +202,15 @@ Delete this line
 Copy this line
 -----------------------
 
+CAUTION
+
+-----------------------
+Yank this line
+Delete this line
+Paste below this line
+
+-----------------------
+
 - r - replace character
 - R - go to replace mode
 

@@ -152,10 +152,11 @@ Middle
 
 **Visual Mode**
 
+- v - Visual Mode
 - V - Visual Line Mode
 - ctrl-v - Visual Block Mode
-- < - Tab left
-- > - Tab Right
+- < - Left Tag
+- > - Right Tag
 - o - Opposite End
 
 .......................
@@ -208,7 +209,6 @@ CAUTION
 Yank this line
 Delete this line
 Paste below this line
-
 -----------------------
 
 - r - replace character

@@ -32,7 +32,6 @@ Challenge 1:
 - Can you find a way to delete the arguments?
 
 -----------------------
-V
 foo(a, b, c)
 -----------------------
 
@@ -41,7 +40,6 @@ Challenge 2:
 - Can you find a way to change the text to `Hello, World`?
 
 -----------------------
-V
 printf("Change this text");
 -----------------------
 
@@ -59,7 +57,6 @@ Challenge 4:
 - Can you delete the contents of this function?
 
 -----------------------
-V
 int main() {
     for(int i = 0; i < 10; i++) {
         printf("%d\n", i);
@@ -70,14 +67,11 @@ int main() {
 
 Challenge 5:
 
-- Can you copy the arguments to function foo?
+- Can you copy the arguments (with the quotations) to function foo?
 
 -----------------------
-V
 That one -> "Copy this argument"
-
-V
-foo(Never gonna give you up)
+foo(Here)
 -----------------------
 
 Challenge 6:
@@ -85,7 +79,6 @@ Challenge 6:
 - Delete all `Foo` from the lines below using di<noun>
 
 -----------------------
-V
 Parenthesis (Foo)
 Braces {Foo}
 Brackets [Foo]

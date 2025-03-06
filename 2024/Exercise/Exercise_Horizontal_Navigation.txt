@@ -1,0 +1,33 @@
+Exercise 1:
+
+Using the text below, use 'w', 'b', e'.
+
+Vim is a powerful text editor.
+You can use many commands to navigate quickly.
+Learn motions like 'w', 'b', e' to move by words.
+Practice will make you faster and more efficient.
+
+
+Exercise 2:
+
+Using the text below, use 'f' (find forward) and 'F' (find backward).
+Similarly, use 't' (till forward) and 'T' (till backwards). To find character in each line.
+plugins like eyeliner, help tremendously.
+
+Vim is a powerful text editor.
+Using 'f' to find characters forward is very useful.
+'F' helps you find characters backward quickly.
+The 't' command lets you move till a character forward.
+Use 'T' to move till a character backward effectively.
+
+
+Exercise 3:
+
+Using the text below, use '^' (first character) '$' (last character).
+To find character in each line.
+
+Vim is a powerful text editor.
+It allows efficient text editing with keyboard commands.
+Use '^' to move to the first character of the current line.
+Use '$' to move to the last character of the current line.
+Practice these motions to improve your navigation skills.

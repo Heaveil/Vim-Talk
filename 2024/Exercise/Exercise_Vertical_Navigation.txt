@@ -1,0 +1,20 @@
+Exercise 1:
+Using the text below, practice navigating with 'Ctrl-u', 'Ctrl-d', 'gg', and 'G'.
+
+Vim is a powerful text editor.
+You can use many commands to navigate quickly.
+Learn motions like 'Ctrl-u' and 'Ctrl-d' to scroll up and down.
+Practice will make you faster and more efficient.
+
+Vim plugins like Eyeliner help tremendously.
+Using 'gg' to go to the top of the file is very useful.
+'G' helps you quickly go to the bottom of the file.
+The 'gg' and 'G' commands improve your navigation speed.
+Practice these motions to navigate large files efficiently.
+
+It allows efficient text editing with keyboard commands.
+Use 'Ctrl-U' to scroll up half a page.
+Use 'Ctrl-D' to scroll down half a page.
+Use 'gg' to move to the top of the file.
+Use 'G' to move to the bottom of the file.
+Practice these motions to improve your navigation skills.

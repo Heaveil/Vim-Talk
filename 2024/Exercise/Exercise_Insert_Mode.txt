@@ -1,0 +1,33 @@
+Exercise 1:
+In normal or visual mode, position the cursor on any character in the text.
+Then, press 'i' to enter insert mode before the cursor.
+Repeat and test by using 'a' to enter insert mode after the cursor.
+
+Vim is a powerful text editor.
+You can navigate efficiently using various commands.
+Mastering 'i', 'I', 'a', 'A', 'o', and 'O' enhances editing speed.
+Practice these commands to become proficient in Vim.
+
+
+
+Exercise 2:
+In normal or visual mode, position the cursor on any character in the text.
+Then, press 'I' to enter insert mode at the beginning of the line. 
+Repeat and test by using 'A' to enter insert mode at the end of the line.
+
+Vim is a powerful text editor.
+You can navigate efficiently using various commands.
+Mastering 'i', 'I', 'a', 'A', 'o', and 'O' enhances editing speed.
+Practice these commands to become proficient in Vim.
+
+
+
+Exercise 3:
+In normal or visual mode, position the cursor on any line in the text.
+Then, press 'o' to open a new line below the cursor and enter insert mode. 
+Repeat and test by using 'O' to open a new line above the cursor and enter insert mode.
+
+Vim is a powerful text editor.
+You can navigate efficiently using various commands.
+Mastering 'i', 'I', 'a', 'A', 'o', and 'O' enhances editing speed.
+Practice these commands to become proficient in Vim.

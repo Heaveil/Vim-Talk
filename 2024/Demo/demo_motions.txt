@@ -1,0 +1,107 @@
+**Motions**
+
+Grammar:
+
+<verb><modifier><noun>
+
+Verbs:
+
+- visual
+- delete
+- change
+- yank
+
+Modifiers:
+
+- Numbers
+- till
+- find
+- inside
+- around
+
+Nouns:
+
+- hjkl
+- word
+- () [] {}
+- "" ''
+
+Challenge 1:
+
+- The function `foo` takes 0 arguments
+- Can you find a way to delete the arguments?
+
+-----------------------
+foo(a, b, c)
+-----------------------
+
+Challenge 2:
+
+- Can you find a way to change the text to `Hello, World`?
+
+-----------------------
+printf("Change this text");
+-----------------------
+
+Challenge 3:
+
+- Can you delete the text to make the function work?
+
+-----------------------
+      V
+printf DELETE THIS TEXT ("Hello, World");
+-----------------------
+
+Challenge 4:
+
+- Can you delete the contents of this function?
+
+-----------------------
+int main() {
+    for(int i = 0; i < 10; i++) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
+-----------------------
+
+Challenge 5:
+
+- Can you copy the arguments (with the quotations) to function foo?
+
+-----------------------
+That one -> "Copy this argument"
+foo(Here)
+-----------------------
+
+Challenge 6:
+
+- Delete all `Foo` from the lines below using di<noun>
+
+-----------------------
+Parenthesis (Foo)
+Braces {Foo}
+Brackets [Foo]
+Tag <Foo>
+Single Quote 'Foo'
+Double Quote "Foo"
+Backtick `Foo`
+-----------------------
+
+Challenge 7:
+
+- Follow the instructions
+
+-----------------------
+V
+DELETE_ME
+
+V
+CHANGE_ME
+
+   V
+DELETE_ME
+
+   V
+CHANGE_ME
+-----------------------

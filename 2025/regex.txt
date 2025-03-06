@@ -1,0 +1,48 @@
+THE FIGHTING ONE EYED KIRBY
+
+      \(.*\)
+
+FROM : let CLUBS = 1;
+TO   : const CLUBS = import(CLUBS)
+
+let CLUBS = 1;
+let HEARTS = 2;
+let SPADES = 3;
+let DIAMONDS = 4;
+---------------------------------------------------------------------------------------------------------------------------------------------
+Scenario 1
+It has been determined that for function foo(), only the string parameter is necessary
+You have implemented this in the function definiton
+Now you must change its implementation
+
+FROM : foo( "FISH", A, B, C )
+TO   : foo("FISH")
+
+foo( "BEAR", A, B, C )
+"SOME CODE DO NOT MODIFY"
+foo( A, "LION", B, C )
+"SOME CODE DO NOT MODIFY"
+foo( A, B, "WOLF", C )
+"SOME CODE DO NOT MODIFY"
+foo( A, B, C, "BIRD" )
+---------------------------------------------------------------------------------------------------------------------------------------------
+Scenario 2
+You have changed a function to make it more flexible
+Now you must change its implementation
+Be wary of case sensitivity
+
+FROM : const Queen = pieces.getQueen()
+TO   : const QUEEN = pieces.get("queen")
+
+const Queen = pieces.getQueen()
+const King = pieces.getKing()
+const Knight = pieces.getKnight()
+const Bishop = pieces.getBishop()
+const Pawn = pieces.getPawn()
+---------------------------------------------------------------------------------------------------------------------------------------------
+Advent of Code 2024 Day 3
+
+CONSTRAINT : Only mul(a,b) is allowed, where a and b is a positive integer and < 1000
+ANSWER     : (2*4 + 5*5 + 11*8 + 8*5) = 161
+
+xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))

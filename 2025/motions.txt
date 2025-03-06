@@ -1,0 +1,91 @@
+================
+= The Language =
+================
+
+          <verb><adjective><noun>
+
+Verbs:           Adjectives         Nouns
+- visual         - Numbers          - hjkl
+- delete         - till             - word
+- change         - find             - $ ^ %
+- yank           - inside           - () [] {}
+                 - around           - "" ''
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- CHALLENGE ---
+- Can you delete all arguments inside foo()?
+
+_______________________
+       v
+foo(a, b, c)
+_______________________
+
+--- CHALLENGE ---
+- Can you change the text to "Hello, World"?
+
+_______________________
+               v
+print("Change this text")
+_______________________
+
+--- CHALLENGE ---
+- Can you fix this text?
+
+_________________________________________________________________
+                                              v
+That's one small step for man, one giant hippopotamus for mankind
+_________________________________________________________________
+
+--- CHALLENGE ---
+- Can you delete the unwanted text?
+
+________________________________
+             v
+print("Hello" DELETE THIS TEXT);
+________________________________
+
+--- CHALLENGE ---
+- Can you delete the contents of this function?
+
+________________________________
+int main() {
+    for(int i = 0; i < 10; i++) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
+________________________________
+
+--- CHALLENGE ---
+- Can you delete everything?
+
+________________________________
+print("foo")
+print("foo")
+print("foo")
+print("foo")
+print("foo")
+print("foo")
+________________________________
+
+--- CHALLENGE ---
+- Can you copy the arguments (with the quotations) into function foo?
+
+________________________________
+That one -> "Copy this argument"
+foo(Here)
+________________________________
+
+--- CHALLENGE ---
+- Delete all Foo from the lines below using di<noun>
+
+________________________________
+Parenthesis (Foo)
+Braces {Foo}
+Brackets [Foo]
+Tag <Foo>
+Single Quote 'Foo'
+Double Quote "Foo"
+Backtick `Foo`
+________________________________

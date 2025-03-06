@@ -1,0 +1,273 @@
+====================
+= Basic Navigation =
+====================
+
+    ↑
+    k
+← h   l →
+    j
+    ↓
+
+--- CHALLENGE ---
+- Using only h, j, k, l
+- Navigate through the maze
+
+ ____________________________
+|............................|
+|. S                         |
+|..........................  |
+|.     .      .     .     .  |
+|.  .  .  .   .  .  .  .  .  |
+|.  .     .      .     .  .  |
+|.  ....................  .  |
+|.  .      .     .     .  .  |
+|.  . E .  .  .  .  .  .  .  |
+|.  .   .     .     .     .  |
+|.  .......................  |
+|.                           |
+|____________________________|
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+=========================
+= Horizontal Navigation =
+=========================
+
+- w for word
+- e for end of word
+- b for back
+
+- ^ goes to first character
+- $ goes to last character
+- % goes to matching pair
+
+--- CHALLENGE ---
+- Start at S
+- Delete all the uppercase letters
+
+_______________________
+Sxx Axx Bxx Cxx Dxx Exx
+
+xxS xxF xxG xxH xxI xxJ
+
+Oxx Nxx Mxx Lxx Kxx Sxx
+_______________________
+
+- f/F for find
+- t/T for till
+
+- ; goes to next match
+- , goes to prev match
+
+--- CHALLENGE ---
+- Start at S
+- Use f/F
+- Delete all the letters
+
+_______________________
+S.. .a. .a. .b. .b. .c.
+
+.c. .b. .b. .a. .a. ..S
+_______________________
+
+--- CHALLENGE ---
+- Start at S
+- Use t/T
+- Delete all the letters
+
+_______________________
+S  a. b, c) d} e]
+
+[e {b (c ,b .a  S
+_______________________
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+=======================
+= Vertical Nagivation =
+=======================
+
+- ctrl-u - moves cursor up ½ page
+- ctrl-d - moves cursor down ½ page
+- gg - moves cursor to start of file
+- G - moves cursor to end of file
+
+=========================
+= RELATIVE LINE NUMBERS =
+=========================
+
+    <number><j/k>
+
+--- CHALLENGE ---
+- Using only relative line numbers
+- Delete all the numbers sequentially
+
+_______________________
+4
+
+
+6
+
+9
+
+1
+
+0
+3
+
+7
+5
+
+
+2
+
+8
+_______________________
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===============
+= Insert Mode =
+===============
+
+- i - insert before cusor
+- a - append after cursor
+
+-----------------------
+          S
+          S
+-----------------------
+
+- I - insert start of line
+- A - append end of line
+
+-----------------------
+  a       S        a
+-----------------------
+
+- o - open new line below
+- O - open new line above
+
+-----------------------
+Middle
+-----------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===============
+= Visual Mode =
+===============
+
+- v - Visual Mode
+- V - Visual Line Mode
+- ctrl-v - Visual Block Mode
+- o - Opposite End
+
+--- PLAYGROUND ---
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+.......................
+
+- ctrl-a - Increment
+- ctrl-x - Decrement
+- g ctrl-a - Global Increment
+- g ctrl-x - Global Decrement
+
+--- PLAYGROUND ---
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+int arr[0];
+
+- u - lowercase
+- U - uppercase
+
+--- PLAYGROUND ---
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+================
+= More Actions =
+================
+
+- r - replace character
+- R - go to replace mode
+
+-----------------------
+Looks Good Tu Me
+-----------------------
+
+- d - Delete
+- c - Change
+- y - Yank
+- p - Paste
+- u - Undo
+- ctrl-r - Redo
+
+-----------------------
+This is a line
+-----------------------
+
+--- CAUTION ---
+_______________________
+Yank this line
+Delete this line
+Paste below this line
+_______________________
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+==========
+= Search =
+==========
+
+- / - go to search mode
+- n - go to next occurrence
+- N - go to prev occurrence
+
+-------------------------------------------------
+Never gonna give you up, Never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry, Never gonna say goodbye
+Never gonna tell a lie and hurt you
+-------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+==============
+= Substitute =
+==============
+
+  :<range>s/<search pattern>/<replace string>/<options>
+
+-------------------------------------------------
+Never gonna give you up, Never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry, Never gonna say goodbye
+Never gonna tell a lie and hurt you
+-------------------------------------------------

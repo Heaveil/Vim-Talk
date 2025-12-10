@@ -1,9 +1,0 @@
-Exercise 1:
-
-Using the text below, find and replace all occurrences of the word "BAD" with "GOOD".
-
-This is a paragraph discussing Vim, often perceived as BAD and not worth the time investment.
-Vim, a powerful text editor known for its efficiency and versatility, has a steep learning curve initially.
-Many users find Vim's modal editing model effective, optimizing tasks with modes like insert mode and normal mode.
-Despite its initial reputation as BAD, mastering Vim enhances productivity.
-Enthusiasts highlight its BAD customization options and BAD plugin ecosystem for programming and text editing needs.
